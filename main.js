@@ -62,6 +62,7 @@ function draw() {
   
     if (game === "start") {
         drawStart();
+        initialScreenmusic.play();
     } else if (game === "gameison") {
         drawrunGame();
     } else {
